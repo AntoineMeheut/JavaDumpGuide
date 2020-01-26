@@ -37,13 +37,14 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Configure the launch of its JVM](#Configure-the-launch-of-its-JVM)
-  * [Configure](#Configure)
-  * [Configure](#Configure)
-  * [Configure](#Configure)
-  * [Configure](#Configure)
-  * [Configure](#Configure)
-  * [Configure](#Configure)
+  * [Configure the launch of the JVM](#Configure-the-launch-of-the-JVM)
+  * [Make a heap dump on OutOfMemoryError or on demand](#Make-a-heap-dump-on-OutOfMemoryError-or-on-demand)
+  * [Achieve a heap dump on demand](#Achieve-a-heap-dump-on-demand)
+  * [Complete line of start-my-application.sh](#Complete-line-of-start-my-application.sh)
+  * [Recover a dump on your server](#Recover-a-dump-on-your-server)
+  * [For a on demand heap dump](#For-a-on-demand-heap-dump)
+  * [Install the dump analysis tool](#Install-the-dump-analysis-tool)
+  * [Analyze the dump](#Analyze-the-dump)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -58,7 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-### Configure the launch of its JVM
+### Configure the launch of the JVM
 You have to open the launch script of your Java application start-my-application.sh, we will need to modify the options passed at the start of the JVM, so that it knows that you want to dump.
 
 You will have to initialize a variable to the home associated with your user account. We will use this path for the dump to arrive directly in your home, making it easier to copy the dump file to your computer. If we do not do this, the dump will be done in the directory where the start-my-application.sh script is located, which sometimes can cause problems, because for security reasons, it is not desirable that this directory be open in writing.
