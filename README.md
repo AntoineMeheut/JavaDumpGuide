@@ -4,9 +4,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GNU License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -31,8 +28,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -53,8 +48,6 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -183,7 +176,7 @@ Distributed under the GNU General Public License v3.0 License. See `LICENSE` for
 <!-- CONTACT -->
 ## Contact
 
-Antoine Méheut - [@Linkedin_antoine-meheut](https://www.linkedin.com/in/antoine-meheut)
+If you want to contact me [just clic](mailto:github.contacts@protonmail.com)
 
 Project Link: [https://github.com/AntoineMeheut/JavaDumpGuide](https://github.com/AntoineMeheut/JavaDumpGuide)
 
@@ -206,6 +199,3 @@ This package was created by reading 10 Tips for using the Eclipse Memory Analyze
 [issues-shield]: https://img.shields.io/github/issues/AntoineMeheut/JavaDumpGuide
 [issues-url]: https://github.com/AntoineMeheut/JavaDumpGuide/issues
 [license-shield]: https://img.shields.io/github/license/AntoineMeheut/JavaDumpGuide
-[license-url]: https://github.com/AntoineMeheut/JavaDumpGuide/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/antoine-meheut
